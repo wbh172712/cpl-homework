@@ -103,13 +103,16 @@
 		},
 		{
 			"path" : "1-types-io/CMakeLists.txt"
+		},
+		{
+			"path" : "2-if-for-array/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "E:/codes/homework_cpl/cmake-build-debug",
-		"source" : "E:/codes/homework_cpl"
+		"build" : "E:/codes/cpl-homework/cmake-build-debug",
+		"source" : "E:/codes/cpl-homework"
 	},
 	"version" : 
 	{

@@ -1,8 +1,8 @@
-# Install script for directory: E:/codes/homework_cpl/1-types-io
+# Install script for directory: E:/codes/cpl-homework/1-types-io
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Project")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/2023_cpl")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

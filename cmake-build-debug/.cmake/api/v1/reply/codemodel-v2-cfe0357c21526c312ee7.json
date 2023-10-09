@@ -8,7 +8,8 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1
+						1,
+						2
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -31,12 +32,32 @@
 					"targetIndexes" : 
 					[
 						0,
-						1,
 						2,
-						3,
 						4,
+						6,
+						7,
+						8,
+						12
+					]
+				},
+				{
+					"build" : "2-if-for-array",
+					"jsonFile" : "directory-2-if-for-array-Debug-ca8a799a0090f7607813.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2-if-for-array",
+					"targetIndexes" : 
+					[
+						1,
+						3,
 						5,
-						6
+						9,
+						10,
+						11
 					]
 				}
 			],
@@ -47,7 +68,8 @@
 					"directoryIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					],
 					"name" : "2023_cpl",
 					"targetIndexes" : 
@@ -58,7 +80,13 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
 					]
 				}
 			],
@@ -72,6 +100,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 2,
+					"id" : "Inverse::@1877d974addea39212c3",
+					"jsonFile" : "target-Inverse-Debug-896b121b46655139e157.json",
+					"name" : "Inverse",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 1,
 					"id" : "change::@592ee50047900f3dac72",
 					"jsonFile" : "target-change-Debug-356a3adafa1a8def59fe.json",
@@ -79,10 +114,24 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 2,
+					"id" : "collatz::@1877d974addea39212c3",
+					"jsonFile" : "target-collatz-Debug-1e06313462dd7e975da1.json",
+					"name" : "collatz",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 1,
 					"id" : "equation::@592ee50047900f3dac72",
 					"jsonFile" : "target-equation-Debug-abc58d7009a43b67c3a6.json",
 					"name" : "equation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "factorial::@1877d974addea39212c3",
+					"jsonFile" : "target-factorial-Debug-38d2f5aa44787daae07b.json",
+					"name" : "factorial",
 					"projectIndex" : 0
 				},
 				{
@@ -107,6 +156,27 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 2,
+					"id" : "series::@1877d974addea39212c3",
+					"jsonFile" : "target-series-Debug-b0c91bac02f98118116e.json",
+					"name" : "series",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "single::@1877d974addea39212c3",
+					"jsonFile" : "target-single-Debug-d3499dc5e53ad5c5ecbd.json",
+					"name" : "single",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "standup::@1877d974addea39212c3",
+					"jsonFile" : "target-standup-Debug-d7e83f6eb9389aed6287.json",
+					"name" : "standup",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 1,
 					"id" : "time::@592ee50047900f3dac72",
 					"jsonFile" : "target-time-Debug-3eaa81575a3cf0b1fe5f.json",
@@ -119,8 +189,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "E:/codes/homework_cpl/cmake-build-debug",
-		"source" : "E:/codes/homework_cpl"
+		"build" : "E:/codes/cpl-homework/cmake-build-debug",
+		"source" : "E:/codes/cpl-homework"
 	},
 	"version" : 
 	{
