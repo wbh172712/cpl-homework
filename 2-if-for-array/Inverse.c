@@ -6,12 +6,12 @@
 int main(void){
     int NUM, k;
     scanf("%d", &NUM);
+
     getchar();
     char sentence[NUM];
     gets(sentence);
 
     scanf("%d", &k);
-    getchar();
     for (int i = k - 1; i >= 0 ; i--) {
         printf("%c", sentence[i]);
     }

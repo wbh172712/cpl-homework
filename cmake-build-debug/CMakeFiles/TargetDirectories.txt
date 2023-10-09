@@ -15,5 +15,6 @@ E:/codes/cpl-homework/cmake-build-debug/2-if-for-array/CMakeFiles/series.dir
 E:/codes/cpl-homework/cmake-build-debug/2-if-for-array/CMakeFiles/collatz.dir
 E:/codes/cpl-homework/cmake-build-debug/2-if-for-array/CMakeFiles/Inverse.dir
 E:/codes/cpl-homework/cmake-build-debug/2-if-for-array/CMakeFiles/standup.dir
+E:/codes/cpl-homework/cmake-build-debug/2-if-for-array/CMakeFiles/Inverse-2.dir
 E:/codes/cpl-homework/cmake-build-debug/2-if-for-array/CMakeFiles/edit_cache.dir
 E:/codes/cpl-homework/cmake-build-debug/2-if-for-array/CMakeFiles/rebuild_cache.dir

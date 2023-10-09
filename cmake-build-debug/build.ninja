@@ -525,6 +525,39 @@ build 2-if-for-array/standup.exe: C_EXECUTABLE_LINKER__standup_Debug 2-if-for-ar
   TARGET_IMPLIB = 2-if-for-array\libstandup.dll.a
   TARGET_PDB = standup.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Inverse-2
+
+
+#############################################
+# Order-only phony target for Inverse-2
+
+build cmake_object_order_depends_target_Inverse-2: phony || 2-if-for-array/CMakeFiles/Inverse-2.dir
+
+build 2-if-for-array/CMakeFiles/Inverse-2.dir/Inverse-2.c.obj: C_COMPILER__Inverse-2_unscanned_Debug E$:/codes/cpl-homework/2-if-for-array/Inverse-2.c || cmake_object_order_depends_target_Inverse-2
+  DEP_FILE = 2-if-for-array\CMakeFiles\Inverse-2.dir\Inverse-2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 2-if-for-array\CMakeFiles\Inverse-2.dir
+  OBJECT_FILE_DIR = 2-if-for-array\CMakeFiles\Inverse-2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Inverse-2
+
+
+#############################################
+# Link the executable 2-if-for-array\Inverse-2.exe
+
+build 2-if-for-array/Inverse-2.exe: C_EXECUTABLE_LINKER__Inverse-2_Debug 2-if-for-array/CMakeFiles/Inverse-2.dir/Inverse-2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 2-if-for-array\CMakeFiles\Inverse-2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2-if-for-array\Inverse-2.exe
+  TARGET_IMPLIB = 2-if-for-array\libInverse-2.dll.a
+  TARGET_PDB = Inverse-2.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -556,6 +589,10 @@ build ASCII: phony 1-types-io/ASCII.exe
 build ASCII.exe: phony 1-types-io/ASCII.exe
 
 build Inverse: phony 2-if-for-array/Inverse.exe
+
+build Inverse-2: phony 2-if-for-array/Inverse-2.exe
+
+build Inverse-2.exe: phony 2-if-for-array/Inverse-2.exe
 
 build Inverse.exe: phony 2-if-for-array/Inverse.exe
 
@@ -625,7 +662,7 @@ build 1-types-io/all: phony 1-types-io/ASCII.exe 1-types-io/change.exe 1-types-i
 #############################################
 # Folder: E:/codes/cpl-homework/cmake-build-debug/2-if-for-array
 
-build 2-if-for-array/all: phony 2-if-for-array/single.exe 2-if-for-array/factorial.exe 2-if-for-array/series.exe 2-if-for-array/collatz.exe 2-if-for-array/Inverse.exe 2-if-for-array/standup.exe
+build 2-if-for-array/all: phony 2-if-for-array/single.exe 2-if-for-array/factorial.exe 2-if-for-array/series.exe 2-if-for-array/collatz.exe 2-if-for-array/Inverse.exe 2-if-for-array/standup.exe 2-if-for-array/Inverse-2.exe
 
 # =============================================================================
 # Built-in targets
