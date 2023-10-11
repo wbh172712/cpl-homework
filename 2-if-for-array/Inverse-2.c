@@ -5,6 +5,7 @@
 int main() {
     int n, k, ch;
     scanf("%d", &n);
+
     getchar();
     char a[n];
     int i = 0;
