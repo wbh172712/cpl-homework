@@ -106,6 +106,9 @@
 		},
 		{
 			"path" : "2-if-for-array/CMakeLists.txt"
+		},
+		{
+			"path" : "3-for-a-while/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
