@@ -2,7 +2,6 @@
 // Created by wbh17 on 2023/10/15.
 //
 #include <stdio.h>
-
 int main(void) {
     int number, k;
     scanf("%d %d", &number, &k);

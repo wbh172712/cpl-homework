@@ -6,7 +6,7 @@ int main(void){
     int N;
     scanf("%d", &N);
 
-    int number[N];
+    int number[100000];
 
     for (int i = 0; i < N; i++) {
         scanf("%d", &number[i]);
