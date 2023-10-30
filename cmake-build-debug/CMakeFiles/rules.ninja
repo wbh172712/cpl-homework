@@ -212,6 +212,25 @@ rule C_EXECUTABLE_LINKER__series_Debug
 #############################################
 # Rule for compiling C files.
 
+rule C_COMPILER__series-2.2ec_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__series-2.2ec_Debug
+  command = cmd.exe /C "$PRE_LINK && "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
 rule C_COMPILER__collatz_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
@@ -630,6 +649,25 @@ rule C_EXECUTABLE_LINKER__sudoku_Debug
 #############################################
 # Rule for compiling C files.
 
+rule C_COMPILER__mine_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__mine_Debug
+  command = cmd.exe /C "$PRE_LINK && "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
 rule C_COMPILER__mines_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
@@ -649,7 +687,7 @@ rule C_EXECUTABLE_LINKER__mines_Debug
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__mine_unscanned_Debug
+rule C_COMPILER__mines-2_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -659,7 +697,7 @@ rule C_COMPILER__mine_unscanned_Debug
 #############################################
 # Rule for linking C executable.
 
-rule C_EXECUTABLE_LINKER__mine_Debug
+rule C_EXECUTABLE_LINKER__mines-2_Debug
   command = cmd.exe /C "$PRE_LINK && "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
@@ -725,6 +763,44 @@ rule C_EXECUTABLE_LINKER__statistics_Debug
 #############################################
 # Rule for compiling C files.
 
+rule C_COMPILER__statistics-2_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__statistics-2_Debug
+  command = cmd.exe /C "$PRE_LINK && "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__statistic_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__statistic_Debug
+  command = cmd.exe /C "$PRE_LINK && "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
 rule C_COMPILER__statistics-right_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
@@ -736,6 +812,25 @@ rule C_COMPILER__statistics-right_unscanned_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__statistics-right_Debug
+  command = cmd.exe /C "$PRE_LINK && "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__answer-statistics_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__answer-statistics_Debug
   command = cmd.exe /C "$PRE_LINK && "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
@@ -774,6 +869,215 @@ rule C_COMPILER__obstacle-right_unscanned_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__obstacle-right_Debug
+  command = cmd.exe /C "$PRE_LINK && "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__behaviors_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__behaviors_Debug
+  command = cmd.exe /C "$PRE_LINK && "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__sum_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__sum_Debug
+  command = cmd.exe /C "$PRE_LINK && "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__magic-square_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__magic-square_Debug
+  command = cmd.exe /C "$PRE_LINK && "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__absolute-prime_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__absolute-prime_Debug
+  command = cmd.exe /C "$PRE_LINK && "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__radix-1_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__radix-1_Debug
+  command = cmd.exe /C "$PRE_LINK && "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__radix_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__radix_Debug
+  command = cmd.exe /C "$PRE_LINK && "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__next-permutation-wrong_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__next-permutation-wrong_Debug
+  command = cmd.exe /C "$PRE_LINK && "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__next-permutation_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__next-permutation_Debug
+  command = cmd.exe /C "$PRE_LINK && "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__pair-wrong_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__pair-wrong_Debug
+  command = cmd.exe /C "$PRE_LINK && "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__pair-1_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__pair-1_Debug
+  command = cmd.exe /C "$PRE_LINK && "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__pair-2_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__pair-2_Debug
   command = cmd.exe /C "$PRE_LINK && "E:\software\CLion 2023.2.2\bin\mingw\bin\gcc.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT

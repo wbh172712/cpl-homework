@@ -427,6 +427,39 @@ build 2-if-for-array/series.exe: C_EXECUTABLE_LINKER__series_Debug 2-if-for-arra
   TARGET_PDB = series.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target series-2.c
+
+
+#############################################
+# Order-only phony target for series-2.c
+
+build cmake_object_order_depends_target_series-2.c: phony || 2-if-for-array/CMakeFiles/series-2.c.dir
+
+build 2-if-for-array/CMakeFiles/series-2.c.dir/series-2.c.obj: C_COMPILER__series-2.2ec_unscanned_Debug E$:/codes/cpl-homework/2-if-for-array/series-2.c || cmake_object_order_depends_target_series-2.c
+  DEP_FILE = 2-if-for-array\CMakeFiles\series-2.c.dir\series-2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 2-if-for-array\CMakeFiles\series-2.c.dir
+  OBJECT_FILE_DIR = 2-if-for-array\CMakeFiles\series-2.c.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target series-2.c
+
+
+#############################################
+# Link the executable 2-if-for-array\series-2.c.exe
+
+build 2-if-for-array/series-2.c.exe: C_EXECUTABLE_LINKER__series-2.2ec_Debug 2-if-for-array/CMakeFiles/series-2.c.dir/series-2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 2-if-for-array\CMakeFiles\series-2.c.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2-if-for-array\series-2.c.exe
+  TARGET_IMPLIB = 2-if-for-array\libseries-2.c.dll.a
+  TARGET_PDB = series-2.c.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target collatz
 
 
@@ -1209,6 +1242,39 @@ build 4-loops/sudoku.exe: C_EXECUTABLE_LINKER__sudoku_Debug 4-loops/CMakeFiles/s
   TARGET_PDB = sudoku.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target mine
+
+
+#############################################
+# Order-only phony target for mine
+
+build cmake_object_order_depends_target_mine: phony || 4-loops/CMakeFiles/mine.dir
+
+build 4-loops/CMakeFiles/mine.dir/mine.c.obj: C_COMPILER__mine_unscanned_Debug E$:/codes/cpl-homework/4-loops/mine.c || cmake_object_order_depends_target_mine
+  DEP_FILE = 4-loops\CMakeFiles\mine.dir\mine.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 4-loops\CMakeFiles\mine.dir
+  OBJECT_FILE_DIR = 4-loops\CMakeFiles\mine.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target mine
+
+
+#############################################
+# Link the executable 4-loops\mine.exe
+
+build 4-loops/mine.exe: C_EXECUTABLE_LINKER__mine_Debug 4-loops/CMakeFiles/mine.dir/mine.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 4-loops\CMakeFiles\mine.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 4-loops\mine.exe
+  TARGET_IMPLIB = 4-loops\libmine.dll.a
+  TARGET_PDB = mine.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target mines
 
 
@@ -1242,37 +1308,37 @@ build 4-loops/mines.exe: C_EXECUTABLE_LINKER__mines_Debug 4-loops/CMakeFiles/min
   TARGET_PDB = mines.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target mine
+# Object build statements for EXECUTABLE target mines-2
 
 
 #############################################
-# Order-only phony target for mine
+# Order-only phony target for mines-2
 
-build cmake_object_order_depends_target_mine: phony || 4-loops/CMakeFiles/mine.dir
+build cmake_object_order_depends_target_mines-2: phony || 4-loops/CMakeFiles/mines-2.dir
 
-build 4-loops/CMakeFiles/mine.dir/mine.c.obj: C_COMPILER__mine_unscanned_Debug E$:/codes/cpl-homework/4-loops/mine.c || cmake_object_order_depends_target_mine
-  DEP_FILE = 4-loops\CMakeFiles\mine.dir\mine.c.obj.d
+build 4-loops/CMakeFiles/mines-2.dir/mines-2.c.obj: C_COMPILER__mines-2_unscanned_Debug E$:/codes/cpl-homework/4-loops/mines-2.c || cmake_object_order_depends_target_mines-2
+  DEP_FILE = 4-loops\CMakeFiles\mines-2.dir\mines-2.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = 4-loops\CMakeFiles\mine.dir
-  OBJECT_FILE_DIR = 4-loops\CMakeFiles\mine.dir
+  OBJECT_DIR = 4-loops\CMakeFiles\mines-2.dir
+  OBJECT_FILE_DIR = 4-loops\CMakeFiles\mines-2.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target mine
+# Link build statements for EXECUTABLE target mines-2
 
 
 #############################################
-# Link the executable 4-loops\mine.exe
+# Link the executable 4-loops\mines-2.exe
 
-build 4-loops/mine.exe: C_EXECUTABLE_LINKER__mine_Debug 4-loops/CMakeFiles/mine.dir/mine.c.obj
+build 4-loops/mines-2.exe: C_EXECUTABLE_LINKER__mines-2_Debug 4-loops/CMakeFiles/mines-2.dir/mines-2.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = 4-loops\CMakeFiles\mine.dir
+  OBJECT_DIR = 4-loops\CMakeFiles\mines-2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = 4-loops\mine.exe
-  TARGET_IMPLIB = 4-loops\libmine.dll.a
-  TARGET_PDB = mine.exe.dbg
+  TARGET_FILE = 4-loops\mines-2.exe
+  TARGET_IMPLIB = 4-loops\libmines-2.dll.a
+  TARGET_PDB = mines-2.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target trace
@@ -1374,6 +1440,72 @@ build 4-loops/statistics.exe: C_EXECUTABLE_LINKER__statistics_Debug 4-loops/CMak
   TARGET_PDB = statistics.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target statistics-2
+
+
+#############################################
+# Order-only phony target for statistics-2
+
+build cmake_object_order_depends_target_statistics-2: phony || 4-loops/CMakeFiles/statistics-2.dir
+
+build 4-loops/CMakeFiles/statistics-2.dir/statistics-2.c.obj: C_COMPILER__statistics-2_unscanned_Debug E$:/codes/cpl-homework/4-loops/statistics-2.c || cmake_object_order_depends_target_statistics-2
+  DEP_FILE = 4-loops\CMakeFiles\statistics-2.dir\statistics-2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 4-loops\CMakeFiles\statistics-2.dir
+  OBJECT_FILE_DIR = 4-loops\CMakeFiles\statistics-2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target statistics-2
+
+
+#############################################
+# Link the executable 4-loops\statistics-2.exe
+
+build 4-loops/statistics-2.exe: C_EXECUTABLE_LINKER__statistics-2_Debug 4-loops/CMakeFiles/statistics-2.dir/statistics-2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 4-loops\CMakeFiles\statistics-2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 4-loops\statistics-2.exe
+  TARGET_IMPLIB = 4-loops\libstatistics-2.dll.a
+  TARGET_PDB = statistics-2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target statistic
+
+
+#############################################
+# Order-only phony target for statistic
+
+build cmake_object_order_depends_target_statistic: phony || 4-loops/CMakeFiles/statistic.dir
+
+build 4-loops/CMakeFiles/statistic.dir/statistic.c.obj: C_COMPILER__statistic_unscanned_Debug E$:/codes/cpl-homework/4-loops/statistic.c || cmake_object_order_depends_target_statistic
+  DEP_FILE = 4-loops\CMakeFiles\statistic.dir\statistic.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 4-loops\CMakeFiles\statistic.dir
+  OBJECT_FILE_DIR = 4-loops\CMakeFiles\statistic.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target statistic
+
+
+#############################################
+# Link the executable 4-loops\statistic.exe
+
+build 4-loops/statistic.exe: C_EXECUTABLE_LINKER__statistic_Debug 4-loops/CMakeFiles/statistic.dir/statistic.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 4-loops\CMakeFiles\statistic.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 4-loops\statistic.exe
+  TARGET_IMPLIB = 4-loops\libstatistic.dll.a
+  TARGET_PDB = statistic.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target statistics-right
 
 
@@ -1405,6 +1537,39 @@ build 4-loops/statistics-right.exe: C_EXECUTABLE_LINKER__statistics-right_Debug 
   TARGET_FILE = 4-loops\statistics-right.exe
   TARGET_IMPLIB = 4-loops\libstatistics-right.dll.a
   TARGET_PDB = statistics-right.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target answer-statistics
+
+
+#############################################
+# Order-only phony target for answer-statistics
+
+build cmake_object_order_depends_target_answer-statistics: phony || 4-loops/CMakeFiles/answer-statistics.dir
+
+build 4-loops/CMakeFiles/answer-statistics.dir/answer-statistics.c.obj: C_COMPILER__answer-statistics_unscanned_Debug E$:/codes/cpl-homework/4-loops/answer-statistics.c || cmake_object_order_depends_target_answer-statistics
+  DEP_FILE = 4-loops\CMakeFiles\answer-statistics.dir\answer-statistics.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 4-loops\CMakeFiles\answer-statistics.dir
+  OBJECT_FILE_DIR = 4-loops\CMakeFiles\answer-statistics.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target answer-statistics
+
+
+#############################################
+# Link the executable 4-loops\answer-statistics.exe
+
+build 4-loops/answer-statistics.exe: C_EXECUTABLE_LINKER__answer-statistics_Debug 4-loops/CMakeFiles/answer-statistics.dir/answer-statistics.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 4-loops\CMakeFiles\answer-statistics.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 4-loops\answer-statistics.exe
+  TARGET_IMPLIB = 4-loops\libanswer-statistics.dll.a
+  TARGET_PDB = answer-statistics.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target obstacle
@@ -1496,6 +1661,397 @@ build 4-loops/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build 4-loops/rebuild_cache: phony 4-loops/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# E:/codes/cpl-homework/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target behaviors
+
+
+#############################################
+# Order-only phony target for behaviors
+
+build cmake_object_order_depends_target_behaviors: phony || 5-functions/CMakeFiles/behaviors.dir
+
+build 5-functions/CMakeFiles/behaviors.dir/behaviors.c.obj: C_COMPILER__behaviors_unscanned_Debug E$:/codes/cpl-homework/5-functions/behaviors.c || cmake_object_order_depends_target_behaviors
+  DEP_FILE = 5-functions\CMakeFiles\behaviors.dir\behaviors.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-functions\CMakeFiles\behaviors.dir
+  OBJECT_FILE_DIR = 5-functions\CMakeFiles\behaviors.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target behaviors
+
+
+#############################################
+# Link the executable 5-functions\behaviors.exe
+
+build 5-functions/behaviors.exe: C_EXECUTABLE_LINKER__behaviors_Debug 5-functions/CMakeFiles/behaviors.dir/behaviors.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-functions\CMakeFiles\behaviors.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-functions\behaviors.exe
+  TARGET_IMPLIB = 5-functions\libbehaviors.dll.a
+  TARGET_PDB = behaviors.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sum
+
+
+#############################################
+# Order-only phony target for sum
+
+build cmake_object_order_depends_target_sum: phony || 5-functions/CMakeFiles/sum.dir
+
+build 5-functions/CMakeFiles/sum.dir/sum.c.obj: C_COMPILER__sum_unscanned_Debug E$:/codes/cpl-homework/5-functions/sum.c || cmake_object_order_depends_target_sum
+  DEP_FILE = 5-functions\CMakeFiles\sum.dir\sum.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-functions\CMakeFiles\sum.dir
+  OBJECT_FILE_DIR = 5-functions\CMakeFiles\sum.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sum
+
+
+#############################################
+# Link the executable 5-functions\sum.exe
+
+build 5-functions/sum.exe: C_EXECUTABLE_LINKER__sum_Debug 5-functions/CMakeFiles/sum.dir/sum.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-functions\CMakeFiles\sum.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-functions\sum.exe
+  TARGET_IMPLIB = 5-functions\libsum.dll.a
+  TARGET_PDB = sum.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target magic-square
+
+
+#############################################
+# Order-only phony target for magic-square
+
+build cmake_object_order_depends_target_magic-square: phony || 5-functions/CMakeFiles/magic-square.dir
+
+build 5-functions/CMakeFiles/magic-square.dir/magic-square.c.obj: C_COMPILER__magic-square_unscanned_Debug E$:/codes/cpl-homework/5-functions/magic-square.c || cmake_object_order_depends_target_magic-square
+  DEP_FILE = 5-functions\CMakeFiles\magic-square.dir\magic-square.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-functions\CMakeFiles\magic-square.dir
+  OBJECT_FILE_DIR = 5-functions\CMakeFiles\magic-square.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target magic-square
+
+
+#############################################
+# Link the executable 5-functions\magic-square.exe
+
+build 5-functions/magic-square.exe: C_EXECUTABLE_LINKER__magic-square_Debug 5-functions/CMakeFiles/magic-square.dir/magic-square.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-functions\CMakeFiles\magic-square.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-functions\magic-square.exe
+  TARGET_IMPLIB = 5-functions\libmagic-square.dll.a
+  TARGET_PDB = magic-square.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target absolute-prime
+
+
+#############################################
+# Order-only phony target for absolute-prime
+
+build cmake_object_order_depends_target_absolute-prime: phony || 5-functions/CMakeFiles/absolute-prime.dir
+
+build 5-functions/CMakeFiles/absolute-prime.dir/absolute-prime.c.obj: C_COMPILER__absolute-prime_unscanned_Debug E$:/codes/cpl-homework/5-functions/absolute-prime.c || cmake_object_order_depends_target_absolute-prime
+  DEP_FILE = 5-functions\CMakeFiles\absolute-prime.dir\absolute-prime.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-functions\CMakeFiles\absolute-prime.dir
+  OBJECT_FILE_DIR = 5-functions\CMakeFiles\absolute-prime.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target absolute-prime
+
+
+#############################################
+# Link the executable 5-functions\absolute-prime.exe
+
+build 5-functions/absolute-prime.exe: C_EXECUTABLE_LINKER__absolute-prime_Debug 5-functions/CMakeFiles/absolute-prime.dir/absolute-prime.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-functions\CMakeFiles\absolute-prime.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-functions\absolute-prime.exe
+  TARGET_IMPLIB = 5-functions\libabsolute-prime.dll.a
+  TARGET_PDB = absolute-prime.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target radix-1
+
+
+#############################################
+# Order-only phony target for radix-1
+
+build cmake_object_order_depends_target_radix-1: phony || 5-functions/CMakeFiles/radix-1.dir
+
+build 5-functions/CMakeFiles/radix-1.dir/radix-1.c.obj: C_COMPILER__radix-1_unscanned_Debug E$:/codes/cpl-homework/5-functions/radix-1.c || cmake_object_order_depends_target_radix-1
+  DEP_FILE = 5-functions\CMakeFiles\radix-1.dir\radix-1.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-functions\CMakeFiles\radix-1.dir
+  OBJECT_FILE_DIR = 5-functions\CMakeFiles\radix-1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target radix-1
+
+
+#############################################
+# Link the executable 5-functions\radix-1.exe
+
+build 5-functions/radix-1.exe: C_EXECUTABLE_LINKER__radix-1_Debug 5-functions/CMakeFiles/radix-1.dir/radix-1.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-functions\CMakeFiles\radix-1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-functions\radix-1.exe
+  TARGET_IMPLIB = 5-functions\libradix-1.dll.a
+  TARGET_PDB = radix-1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target radix
+
+
+#############################################
+# Order-only phony target for radix
+
+build cmake_object_order_depends_target_radix: phony || 5-functions/CMakeFiles/radix.dir
+
+build 5-functions/CMakeFiles/radix.dir/radix.c.obj: C_COMPILER__radix_unscanned_Debug E$:/codes/cpl-homework/5-functions/radix.c || cmake_object_order_depends_target_radix
+  DEP_FILE = 5-functions\CMakeFiles\radix.dir\radix.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-functions\CMakeFiles\radix.dir
+  OBJECT_FILE_DIR = 5-functions\CMakeFiles\radix.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target radix
+
+
+#############################################
+# Link the executable 5-functions\radix.exe
+
+build 5-functions/radix.exe: C_EXECUTABLE_LINKER__radix_Debug 5-functions/CMakeFiles/radix.dir/radix.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-functions\CMakeFiles\radix.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-functions\radix.exe
+  TARGET_IMPLIB = 5-functions\libradix.dll.a
+  TARGET_PDB = radix.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target next-permutation-wrong
+
+
+#############################################
+# Order-only phony target for next-permutation-wrong
+
+build cmake_object_order_depends_target_next-permutation-wrong: phony || 5-functions/CMakeFiles/next-permutation-wrong.dir
+
+build 5-functions/CMakeFiles/next-permutation-wrong.dir/next-permutation-wrong.c.obj: C_COMPILER__next-permutation-wrong_unscanned_Debug E$:/codes/cpl-homework/5-functions/next-permutation-wrong.c || cmake_object_order_depends_target_next-permutation-wrong
+  DEP_FILE = 5-functions\CMakeFiles\next-permutation-wrong.dir\next-permutation-wrong.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-functions\CMakeFiles\next-permutation-wrong.dir
+  OBJECT_FILE_DIR = 5-functions\CMakeFiles\next-permutation-wrong.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target next-permutation-wrong
+
+
+#############################################
+# Link the executable 5-functions\next-permutation-wrong.exe
+
+build 5-functions/next-permutation-wrong.exe: C_EXECUTABLE_LINKER__next-permutation-wrong_Debug 5-functions/CMakeFiles/next-permutation-wrong.dir/next-permutation-wrong.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-functions\CMakeFiles\next-permutation-wrong.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-functions\next-permutation-wrong.exe
+  TARGET_IMPLIB = 5-functions\libnext-permutation-wrong.dll.a
+  TARGET_PDB = next-permutation-wrong.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target next-permutation
+
+
+#############################################
+# Order-only phony target for next-permutation
+
+build cmake_object_order_depends_target_next-permutation: phony || 5-functions/CMakeFiles/next-permutation.dir
+
+build 5-functions/CMakeFiles/next-permutation.dir/next-permutation.c.obj: C_COMPILER__next-permutation_unscanned_Debug E$:/codes/cpl-homework/5-functions/next-permutation.c || cmake_object_order_depends_target_next-permutation
+  DEP_FILE = 5-functions\CMakeFiles\next-permutation.dir\next-permutation.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-functions\CMakeFiles\next-permutation.dir
+  OBJECT_FILE_DIR = 5-functions\CMakeFiles\next-permutation.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target next-permutation
+
+
+#############################################
+# Link the executable 5-functions\next-permutation.exe
+
+build 5-functions/next-permutation.exe: C_EXECUTABLE_LINKER__next-permutation_Debug 5-functions/CMakeFiles/next-permutation.dir/next-permutation.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-functions\CMakeFiles\next-permutation.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-functions\next-permutation.exe
+  TARGET_IMPLIB = 5-functions\libnext-permutation.dll.a
+  TARGET_PDB = next-permutation.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target pair-wrong
+
+
+#############################################
+# Order-only phony target for pair-wrong
+
+build cmake_object_order_depends_target_pair-wrong: phony || 5-functions/CMakeFiles/pair-wrong.dir
+
+build 5-functions/CMakeFiles/pair-wrong.dir/pair-wrong.c.obj: C_COMPILER__pair-wrong_unscanned_Debug E$:/codes/cpl-homework/5-functions/pair-wrong.c || cmake_object_order_depends_target_pair-wrong
+  DEP_FILE = 5-functions\CMakeFiles\pair-wrong.dir\pair-wrong.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-functions\CMakeFiles\pair-wrong.dir
+  OBJECT_FILE_DIR = 5-functions\CMakeFiles\pair-wrong.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pair-wrong
+
+
+#############################################
+# Link the executable 5-functions\pair-wrong.exe
+
+build 5-functions/pair-wrong.exe: C_EXECUTABLE_LINKER__pair-wrong_Debug 5-functions/CMakeFiles/pair-wrong.dir/pair-wrong.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-functions\CMakeFiles\pair-wrong.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-functions\pair-wrong.exe
+  TARGET_IMPLIB = 5-functions\libpair-wrong.dll.a
+  TARGET_PDB = pair-wrong.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target pair-1
+
+
+#############################################
+# Order-only phony target for pair-1
+
+build cmake_object_order_depends_target_pair-1: phony || 5-functions/CMakeFiles/pair-1.dir
+
+build 5-functions/CMakeFiles/pair-1.dir/pair-1.c.obj: C_COMPILER__pair-1_unscanned_Debug E$:/codes/cpl-homework/5-functions/pair-1.c || cmake_object_order_depends_target_pair-1
+  DEP_FILE = 5-functions\CMakeFiles\pair-1.dir\pair-1.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-functions\CMakeFiles\pair-1.dir
+  OBJECT_FILE_DIR = 5-functions\CMakeFiles\pair-1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pair-1
+
+
+#############################################
+# Link the executable 5-functions\pair-1.exe
+
+build 5-functions/pair-1.exe: C_EXECUTABLE_LINKER__pair-1_Debug 5-functions/CMakeFiles/pair-1.dir/pair-1.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-functions\CMakeFiles\pair-1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-functions\pair-1.exe
+  TARGET_IMPLIB = 5-functions\libpair-1.dll.a
+  TARGET_PDB = pair-1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target pair-2
+
+
+#############################################
+# Order-only phony target for pair-2
+
+build cmake_object_order_depends_target_pair-2: phony || 5-functions/CMakeFiles/pair-2.dir
+
+build 5-functions/CMakeFiles/pair-2.dir/pair-2.c.obj: C_COMPILER__pair-2_unscanned_Debug E$:/codes/cpl-homework/5-functions/pair-2.c || cmake_object_order_depends_target_pair-2
+  DEP_FILE = 5-functions\CMakeFiles\pair-2.dir\pair-2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-functions\CMakeFiles\pair-2.dir
+  OBJECT_FILE_DIR = 5-functions\CMakeFiles\pair-2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pair-2
+
+
+#############################################
+# Link the executable 5-functions\pair-2.exe
+
+build 5-functions/pair-2.exe: C_EXECUTABLE_LINKER__pair-2_Debug 5-functions/CMakeFiles/pair-2.dir/pair-2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-functions\CMakeFiles\pair-2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-functions\pair-2.exe
+  TARGET_IMPLIB = 5-functions\libpair-2.dll.a
+  TARGET_PDB = pair-2.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 5-functions/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D E:\codes\cpl-homework\cmake-build-debug\5-functions && "E:\software\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 5-functions/edit_cache: phony 5-functions/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 5-functions/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D E:\codes\cpl-homework\cmake-build-debug\5-functions && "E:\software\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SE:\codes\cpl-homework -BE:\codes\cpl-homework\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 5-functions/rebuild_cache: phony 5-functions/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build ASCII: phony 1-types-io/ASCII.exe
@@ -1509,6 +2065,14 @@ build Inverse-2: phony 2-if-for-array/Inverse-2.exe
 build Inverse-2.exe: phony 2-if-for-array/Inverse-2.exe
 
 build Inverse.exe: phony 2-if-for-array/Inverse.exe
+
+build absolute-prime: phony 5-functions/absolute-prime.exe
+
+build absolute-prime.exe: phony 5-functions/absolute-prime.exe
+
+build answer-statistics: phony 4-loops/answer-statistics.exe
+
+build answer-statistics.exe: phony 4-loops/answer-statistics.exe
 
 build b-ternary-1: phony 3-for-a-while/b-ternary-1.exe
 
@@ -1525,6 +2089,10 @@ build b-ternary-2-2: phony 3-for-a-while/b-ternary-2-2.exe
 build b-ternary-2-2.exe: phony 3-for-a-while/b-ternary-2-2.exe
 
 build b-ternary-2.exe: phony 3-for-a-while/b-ternary-2.exe
+
+build behaviors: phony 5-functions/behaviors.exe
+
+build behaviors.exe: phony 5-functions/behaviors.exe
 
 build bubble-sort: phony 3-for-a-while/bubble-sort.exe
 
@@ -1578,6 +2146,10 @@ build life: phony 4-loops/life.exe
 
 build life.exe: phony 4-loops/life.exe
 
+build magic-square: phony 5-functions/magic-square.exe
+
+build magic-square.exe: phony 5-functions/magic-square.exe
+
 build matrix-mult: phony 4-loops/matrix-mult.exe
 
 build matrix-mult.exe: phony 4-loops/matrix-mult.exe
@@ -1588,7 +2160,19 @@ build mine.exe: phony 4-loops/mine.exe
 
 build mines: phony 4-loops/mines.exe
 
+build mines-2: phony 4-loops/mines-2.exe
+
+build mines-2.exe: phony 4-loops/mines-2.exe
+
 build mines.exe: phony 4-loops/mines.exe
+
+build next-permutation: phony 5-functions/next-permutation.exe
+
+build next-permutation-wrong: phony 5-functions/next-permutation-wrong.exe
+
+build next-permutation-wrong.exe: phony 5-functions/next-permutation-wrong.exe
+
+build next-permutation.exe: phony 5-functions/next-permutation.exe
 
 build obstacle: phony 4-loops/obstacle.exe
 
@@ -1597,6 +2181,18 @@ build obstacle-right: phony 4-loops/obstacle-right.exe
 build obstacle-right.exe: phony 4-loops/obstacle-right.exe
 
 build obstacle.exe: phony 4-loops/obstacle.exe
+
+build pair-1: phony 5-functions/pair-1.exe
+
+build pair-1.exe: phony 5-functions/pair-1.exe
+
+build pair-2: phony 5-functions/pair-2.exe
+
+build pair-2.exe: phony 5-functions/pair-2.exe
+
+build pair-wrong: phony 5-functions/pair-wrong.exe
+
+build pair-wrong.exe: phony 5-functions/pair-wrong.exe
 
 build palindrome-1: phony 3-for-a-while/palindrome-1.exe
 
@@ -1618,7 +2214,19 @@ build quick-sort-2.exe: phony 3-for-a-while/quick-sort-2.exe
 
 build quick-sort.exe: phony 3-for-a-while/quick-sort.exe
 
+build radix: phony 5-functions/radix.exe
+
+build radix-1: phony 5-functions/radix-1.exe
+
+build radix-1.exe: phony 5-functions/radix-1.exe
+
+build radix.exe: phony 5-functions/radix.exe
+
 build series: phony 2-if-for-array/series.exe
+
+build series-2.c: phony 2-if-for-array/series-2.c.exe
+
+build series-2.c.exe: phony 2-if-for-array/series-2.c.exe
 
 build series.exe: phony 2-if-for-array/series.exe
 
@@ -1638,7 +2246,15 @@ build standup: phony 2-if-for-array/standup.exe
 
 build standup.exe: phony 2-if-for-array/standup.exe
 
+build statistic: phony 4-loops/statistic.exe
+
+build statistic.exe: phony 4-loops/statistic.exe
+
 build statistics: phony 4-loops/statistics.exe
+
+build statistics-2: phony 4-loops/statistics-2.exe
+
+build statistics-2.exe: phony 4-loops/statistics-2.exe
 
 build statistics-right: phony 4-loops/statistics-right.exe
 
@@ -1649,6 +2265,10 @@ build statistics.exe: phony 4-loops/statistics.exe
 build sudoku: phony 4-loops/sudoku.exe
 
 build sudoku.exe: phony 4-loops/sudoku.exe
+
+build sum: phony 5-functions/sum.exe
+
+build sum.exe: phony 5-functions/sum.exe
 
 build time: phony 1-types-io/time.exe
 
@@ -1666,7 +2286,7 @@ build trace.exe: phony 4-loops/trace.exe
 #############################################
 # Folder: E:/codes/cpl-homework/cmake-build-debug
 
-build all: phony 1-types-io/all 2-if-for-array/all 3-for-a-while/all 4-loops/all
+build all: phony 1-types-io/all 2-if-for-array/all 3-for-a-while/all 4-loops/all 5-functions/all
 
 # =============================================================================
 
@@ -1680,7 +2300,7 @@ build 1-types-io/all: phony 1-types-io/ASCII.exe 1-types-io/change.exe 1-types-i
 #############################################
 # Folder: E:/codes/cpl-homework/cmake-build-debug/2-if-for-array
 
-build 2-if-for-array/all: phony 2-if-for-array/single.exe 2-if-for-array/factorial.exe 2-if-for-array/series.exe 2-if-for-array/collatz.exe 2-if-for-array/Inverse.exe 2-if-for-array/standup.exe 2-if-for-array/Inverse-2.exe 2-if-for-array/single-2.exe
+build 2-if-for-array/all: phony 2-if-for-array/single.exe 2-if-for-array/factorial.exe 2-if-for-array/series.exe 2-if-for-array/series-2.c.exe 2-if-for-array/collatz.exe 2-if-for-array/Inverse.exe 2-if-for-array/standup.exe 2-if-for-array/Inverse-2.exe 2-if-for-array/single-2.exe
 
 # =============================================================================
 
@@ -1694,7 +2314,14 @@ build 3-for-a-while/all: phony 3-for-a-while/palindrome-1.exe 3-for-a-while/flip
 #############################################
 # Folder: E:/codes/cpl-homework/cmake-build-debug/4-loops
 
-build 4-loops/all: phony 4-loops/matrix-mult.exe 4-loops/formation.exe 4-loops/sudoku.exe 4-loops/mines.exe 4-loops/mine.exe 4-loops/trace.exe 4-loops/life.exe 4-loops/statistics.exe 4-loops/statistics-right.exe 4-loops/obstacle.exe 4-loops/obstacle-right.exe
+build 4-loops/all: phony 4-loops/matrix-mult.exe 4-loops/formation.exe 4-loops/sudoku.exe 4-loops/mine.exe 4-loops/mines.exe 4-loops/mines-2.exe 4-loops/trace.exe 4-loops/life.exe 4-loops/statistics.exe 4-loops/statistics-2.exe 4-loops/statistic.exe 4-loops/statistics-right.exe 4-loops/answer-statistics.exe 4-loops/obstacle.exe 4-loops/obstacle-right.exe
+
+# =============================================================================
+
+#############################################
+# Folder: E:/codes/cpl-homework/cmake-build-debug/5-functions
+
+build 5-functions/all: phony 5-functions/behaviors.exe 5-functions/sum.exe 5-functions/magic-square.exe 5-functions/absolute-prime.exe 5-functions/radix-1.exe 5-functions/radix.exe 5-functions/next-permutation-wrong.exe 5-functions/next-permutation.exe 5-functions/pair-wrong.exe 5-functions/pair-1.exe 5-functions/pair-2.exe
 
 # =============================================================================
 # Built-in targets
@@ -1703,14 +2330,14 @@ build 4-loops/all: phony 4-loops/matrix-mult.exe 4-loops/formation.exe 4-loops/s
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake E$:/codes/cpl-homework/1-types-io/CMakeLists.txt E$:/codes/cpl-homework/2-if-for-array/CMakeLists.txt E$:/codes/cpl-homework/3-for-a-while/CMakeLists.txt E$:/codes/cpl-homework/4-loops/CMakeLists.txt E$:/codes/cpl-homework/CMakeLists.txt E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake E$:/codes/cpl-homework/1-types-io/CMakeLists.txt E$:/codes/cpl-homework/2-if-for-array/CMakeLists.txt E$:/codes/cpl-homework/3-for-a-while/CMakeLists.txt E$:/codes/cpl-homework/4-loops/CMakeLists.txt E$:/codes/cpl-homework/5-functions/CMakeLists.txt E$:/codes/cpl-homework/CMakeLists.txt E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake E$:/codes/cpl-homework/1-types-io/CMakeLists.txt E$:/codes/cpl-homework/2-if-for-array/CMakeLists.txt E$:/codes/cpl-homework/3-for-a-while/CMakeLists.txt E$:/codes/cpl-homework/4-loops/CMakeLists.txt E$:/codes/cpl-homework/CMakeLists.txt E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake: phony
+build CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake E$:/codes/cpl-homework/1-types-io/CMakeLists.txt E$:/codes/cpl-homework/2-if-for-array/CMakeLists.txt E$:/codes/cpl-homework/3-for-a-while/CMakeLists.txt E$:/codes/cpl-homework/4-loops/CMakeLists.txt E$:/codes/cpl-homework/5-functions/CMakeLists.txt E$:/codes/cpl-homework/CMakeLists.txt E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################

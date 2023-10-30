@@ -6,8 +6,8 @@ int main(void) {
     int m, n, p;
     scanf("%d%d%d", &m, &n, &p);
 
-    int matrix_1[100][100];
-    int matrix_2[100][100];
+    int matrix_1[100][100] = {0};
+    int matrix_2[100][100] = {0};
 
     for (int i = 0; i < m; i++) {
         for (int j = 0; j < n; j++) {
@@ -20,14 +20,12 @@ int main(void) {
         }
     }
 
-    int matrix_3[m][p];
+    int matrix_3[100][100] = {0};
     for (int i = 0; i < m; i++) {
         for (int j = 0; j < p; j++) {
-            int sum = 0;
             for (int k = 0; k < n; k++) {
-                sum = sum + matrix_1[i][k] * matrix_2[k][j];
+                matrix_3[i][j] = matrix_3[i][j] + matrix_1[i][k] * matrix_2[k][j];
             }
-            matrix_3[i][j] = sum;
         }
     }
 

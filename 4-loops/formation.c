@@ -2,7 +2,6 @@
 // Created by wbh17 on 2023/10/21.
 //
 #include <stdio.h>
-
 int main(void) {
 
     int f[2][2][2] = {
@@ -18,8 +17,8 @@ int main(void) {
 
     int m, n;
     scanf("%d%d", &m, &n);
-    int formation[2010][2020] = {0};
-    char front[2001];
+    int formation[2001][2001] = {0};
+    char front[2001] = {0};
 
     scanf("%s", front);
     for (int k = 1; k < n + 1; k++) {

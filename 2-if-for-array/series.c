@@ -3,11 +3,11 @@
 //
 #include <stdio.h>
 int main(void){
-    float x;
+    double x;
     int n;
-    scanf("%f %d", &x, &n);
+    scanf("%lf %d", &x, &n);
 
-    float number1 = x, number2, number3 = x;
+    double number1 = x, number2, number3 = x;
 
     for(int i = 1; i <= n; i++){
         number1 = -1 * number1 * x * x;

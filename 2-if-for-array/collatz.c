@@ -5,21 +5,18 @@
 int main(void){
     int number;
     scanf("%d", &number);
-    int time = 0, max = 1;
+    int time = 0, max = number;
 
-    while (number != 1){
+    while (number != 1) {
         if (number % 2 == 0) {
-            if (max <= number) {
-                max = number;
-            }
             number = number / 2;
             time++;
         } else {
             number = number * 3 + 1;
             time++;
-            if (max <= number) {
-                max = number;
-            }
+        }
+        if (max <= number) {
+            max = number;
         }
     }
 

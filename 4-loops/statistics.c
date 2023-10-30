@@ -6,7 +6,6 @@
 int main(void) {
     int n;
     scanf("%d", &n);
-
     char sentence[1000];
     scanf("%s", sentence);
 
@@ -41,6 +40,9 @@ int main(void) {
         for (int j = 2; j < num[i/3] + 2; j++) {
             pre_result[i][j] = '=';
         }
+        for (int j = num[i/3] + 2; j < max + 2; j++) {
+            pre_result[i][j] = ' ';
+        }
     }
     for (int i = 1; i < 77; i+=3) {
         pre_result[1][0] = 'A';
@@ -48,10 +50,16 @@ int main(void) {
         for (int j = 2; j < num[i/3 + 26] + 2; j++) {
             pre_result[i][j] = '=';
         }
+        for (int j = num[i/3 + 26] + 2; j < max + 2; j++) {
+            pre_result[i][j] = ' ';
+        }
     }
 
     for (int i = 2; i < 77; i+=3) {
         pre_result[i][0] = ' ';
+        for (int j = num[i/3 + 26] + 2; j < max + 2; j++) {
+            pre_result[i][j] = ' ';
+        }
     }
     for (int i = 0; i < 77; i++) {
         pre_result[i][1] = '-';
@@ -59,14 +67,12 @@ int main(void) {
 
     char result[100][100] = {0};
     int a = 0;
+    int q;
     for (int i = 0; i < 77; i++) {
-        if (pre_result[i][2] == '=') {
-            for (int j = 0; j < max + 2; j++) {
-                result[a][j] = pre_result[i][j];
-            }
-            a++;
-        } else if ((pre_result[i][0] == ' ') &&
-                   ((pre_result[i - 1][2] == '=') || (pre_result[i - 2][2] == '='))){
+        q = 1;
+        if (pre_result[i][2] == '=' || (pre_result[i][0] == ' ' &&
+                                         q == 0 && (pre_result[i + 1][2] == '=' || pre_result[i + 2][2] == '='))) {
+            q = 0;
             for (int j = 0; j < max + 2; j++) {
                 result[a][j] = pre_result[i][j];
             }
@@ -75,7 +81,7 @@ int main(void) {
     }
 
     for (int i = max + 1; i >= 0; i--) {
-        for (int j = 0; j < a - 1; j++) {
+        for (int j = 0; j < a; j++) {
             printf("%c", result[j][i]);
         }
         printf("\n");
