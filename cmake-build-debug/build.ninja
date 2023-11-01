@@ -1930,39 +1930,6 @@ build 5-functions/next-permutation.exe: C_EXECUTABLE_LINKER__next-permutation_De
   TARGET_PDB = next-permutation.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target pair-wrong
-
-
-#############################################
-# Order-only phony target for pair-wrong
-
-build cmake_object_order_depends_target_pair-wrong: phony || 5-functions/CMakeFiles/pair-wrong.dir
-
-build 5-functions/CMakeFiles/pair-wrong.dir/pair-wrong.c.obj: C_COMPILER__pair-wrong_unscanned_Debug E$:/codes/cpl-homework/5-functions/pair-wrong.c || cmake_object_order_depends_target_pair-wrong
-  DEP_FILE = 5-functions\CMakeFiles\pair-wrong.dir\pair-wrong.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = 5-functions\CMakeFiles\pair-wrong.dir
-  OBJECT_FILE_DIR = 5-functions\CMakeFiles\pair-wrong.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target pair-wrong
-
-
-#############################################
-# Link the executable 5-functions\pair-wrong.exe
-
-build 5-functions/pair-wrong.exe: C_EXECUTABLE_LINKER__pair-wrong_Debug 5-functions/CMakeFiles/pair-wrong.dir/pair-wrong.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = 5-functions\CMakeFiles\pair-wrong.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 5-functions\pair-wrong.exe
-  TARGET_IMPLIB = 5-functions\libpair-wrong.dll.a
-  TARGET_PDB = pair-wrong.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target pair-1
 
 
@@ -2190,10 +2157,6 @@ build pair-2: phony 5-functions/pair-2.exe
 
 build pair-2.exe: phony 5-functions/pair-2.exe
 
-build pair-wrong: phony 5-functions/pair-wrong.exe
-
-build pair-wrong.exe: phony 5-functions/pair-wrong.exe
-
 build palindrome-1: phony 3-for-a-while/palindrome-1.exe
 
 build palindrome-1.exe: phony 3-for-a-while/palindrome-1.exe
@@ -2321,7 +2284,7 @@ build 4-loops/all: phony 4-loops/matrix-mult.exe 4-loops/formation.exe 4-loops/s
 #############################################
 # Folder: E:/codes/cpl-homework/cmake-build-debug/5-functions
 
-build 5-functions/all: phony 5-functions/behaviors.exe 5-functions/sum.exe 5-functions/magic-square.exe 5-functions/absolute-prime.exe 5-functions/radix-1.exe 5-functions/radix.exe 5-functions/next-permutation-wrong.exe 5-functions/next-permutation.exe 5-functions/pair-wrong.exe 5-functions/pair-1.exe 5-functions/pair-2.exe
+build 5-functions/all: phony 5-functions/behaviors.exe 5-functions/sum.exe 5-functions/magic-square.exe 5-functions/absolute-prime.exe 5-functions/radix-1.exe 5-functions/radix.exe 5-functions/next-permutation-wrong.exe 5-functions/next-permutation.exe 5-functions/pair-1.exe 5-functions/pair-2.exe
 
 # =============================================================================
 # Built-in targets

@@ -61,7 +61,6 @@ E:/codes/cpl-homework/cmake-build-debug/5-functions/CMakeFiles/radix-1.dir
 E:/codes/cpl-homework/cmake-build-debug/5-functions/CMakeFiles/radix.dir
 E:/codes/cpl-homework/cmake-build-debug/5-functions/CMakeFiles/next-permutation-wrong.dir
 E:/codes/cpl-homework/cmake-build-debug/5-functions/CMakeFiles/next-permutation.dir
-E:/codes/cpl-homework/cmake-build-debug/5-functions/CMakeFiles/pair-wrong.dir
 E:/codes/cpl-homework/cmake-build-debug/5-functions/CMakeFiles/pair-1.dir
 E:/codes/cpl-homework/cmake-build-debug/5-functions/CMakeFiles/pair-2.dir
 E:/codes/cpl-homework/cmake-build-debug/5-functions/CMakeFiles/edit_cache.dir

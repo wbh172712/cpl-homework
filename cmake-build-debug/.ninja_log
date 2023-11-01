@@ -36,7 +36,7 @@
 1	389	7189655445143316	3-for-a-while/CMakeFiles/palindrome-1.dir/palindrome-1.c.obj	70711d9ec8bbb9fe
 1	397	7189665817728555	3-for-a-while/CMakeFiles/flip.dir/flip.c.obj	df03aa4159c8b69b
 2	386	7189730103836862	3-for-a-while/CMakeFiles/josephus.dir/josephus.c.obj	f6031fa33ac3031c
-420	631	7201592425049785	5-functions/pair-1.exe	ca2255c9ddc3121f
+483	707	7205325031583549	5-functions/pair-1.exe	ca2255c9ddc3121f
 0	381	7190581944394296	3-for-a-while/CMakeFiles/a.dir/a.c.obj	deb1d2a305b832d2
 387	577	7189730105717825	3-for-a-while/josephus.exe	e1bd3be1c45d6e11
 1	1453	7192546308115030	3-for-a-while/CMakeFiles/bubble-sort.dir/bubble-sort.c.obj	e9d94622e27d03c6
@@ -84,7 +84,7 @@
 0	411	7201080679629589	5-functions/CMakeFiles/sum.dir/sum.c.obj	1caa7a935142d8f7
 408	613	7201260711145214	5-functions/pair.exe	fe74ae8d3f4e5456
 411	608	7201080681569467	5-functions/sum.exe	caf57a2a17da33ff
-1	411	7201200551335188	5-functions/CMakeFiles/next-permutation.dir/next-permutation.c.obj	af6b1a86e02e164b
+1	556	7205335487799910	5-functions/CMakeFiles/next-permutation.dir/next-permutation.c.obj	af6b1a86e02e164b
 1	401	7201099550473099	5-functions/CMakeFiles/magic-square.dir/magic-square.c.obj	dcf34a8da47f81e5
 401	603	7201099552462505	5-functions/magic-square.exe	f66bf9c25e3046fc
 1	432	7201124578399053	5-functions/CMakeFiles/absolute-prime.dir/absolute-prime.c.obj	c5312b8fe370d2c
@@ -93,9 +93,9 @@
 409	606	7201159570902492	5-functions/1.exe	682af0acf8b0ac94
 1	407	7201148904964282	5-functions/CMakeFiles/radix.dir/radix.c.obj	3a0941867837b28b
 408	612	7201148906965683	5-functions/radix.exe	83c9d55e53e6185f
-411	608	7201200553223185	5-functions/next-permutation.exe	2e82e8eab60d878e
+556	774	7205335489941723	5-functions/next-permutation.exe	2e82e8eab60d878e
 1	420	7201216797527148	5-functions/CMakeFiles/next-permutation-1.dir/next-permutation-1.c.obj	5915ad3cef22fd6a
 1	408	7201260709140342	5-functions/CMakeFiles/pair.dir/pair.c.obj	e753ef0f9bd7165d
-1	419	7201592422979620	5-functions/CMakeFiles/pair-1.dir/pair-1.c.obj	2ead5d7d3db2564e
+2	482	7205325029480193	5-functions/CMakeFiles/pair-1.dir/pair-1.c.obj	2ead5d7d3db2564e
 2	405	7201616593487588	5-functions/CMakeFiles/pair-2.dir/pair-2.c.obj	72dbfd58c5779c91
 405	597	7201616595379496	5-functions/pair-2.exe	1d38601210dbcdfb

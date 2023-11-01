@@ -1,38 +1,40 @@
 //
 // Created by wbh17 on 2023/10/27.
 //
+
 #include <stdio.h>
 
-int main() {
-
+int main(void) {
     int n;
     scanf("%d", &n);
 
-    int per[2004] = {0};
+    int a[2005] = {0};
     for (int i = 1; i <= n; i++) {
-        scanf("%d", &per[i]);
+        scanf("%d", &a[i]);
     }
 
-    int num = 0;
-    while (per[n - num - 1] > per[n - num]){
-        num++;
+    int p = n;
+    while (a[p - 1] > a[p]) {
+        p--;
     }
-    for (int i = n; i >= n - num; i--){
-        if (per[n - num - 1] < per[i]) {
-            int temp = per[n - num - 1];
-            per[n - num - 1] = per[i];
-            per[i] = temp;
+
+    for (int i = n; i >= p; i--) {
+        if (a[p - 1] < a[i]) {
+            int tmp = a[p - 1];
+            a[p - 1] = a[i];
+            a[i] = tmp;
             break;
         }
     }
 
-    for (int i = n - num, j = n; i < j; i++, j--) {
-        int temp = per[i];
-        per[i] = per[j];
-        per[j] = temp;
+    for (int i = p, j = n; i < j; i++, j--) {
+        int tmp = a[i];
+        a[i] = a[j];
+        a[j] = tmp;
     }
-    for (int i = 1; i <= n; i++){
-        printf("%d ", per[i]);
+
+    for (int i = 1; i <= n; i++) {
+        printf("%d ", a[i]);
     }
 
     return 0;

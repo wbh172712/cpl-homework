@@ -18,12 +18,12 @@ int main(void) {
     }
 
 
-    int middle = 0;
+    int middle;
     int min = t + 1;
-    for(int i = 0; i < m; i++) {
+    for (int i = 0; i < m; i++) {
         int high = n - 1;
         int low = 0;
-        while(high >= low) {
+        while (high >= low) {
             middle = (high + low) / 2;
             if (t - b[i] - a[middle] < min && t - b[i] - a[middle] >= 0) {
                 min = t - b[i] - a[middle];
@@ -33,16 +33,17 @@ int main(void) {
             } else if (t - b[i] - a[middle] < 0) {
                 high = middle - 1;
             } else {
-                break;
+                printf("0");
+                return 0;
             }
         }
-
     }
 
-    if (min != t + 1) {
+    if (min != t + 1){
         printf("%d", min);
     } else {
         printf("-1");
     }
+
     return 0;
 }
