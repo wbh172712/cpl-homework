@@ -2019,6 +2019,920 @@ build 5-functions/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build 5-functions/rebuild_cache: phony 5-functions/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# E:/codes/cpl-homework/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target pascal
+
+
+#############################################
+# Order-only phony target for pascal
+
+build cmake_object_order_depends_target_pascal: phony || 6-recursion/CMakeFiles/pascal.dir
+
+build 6-recursion/CMakeFiles/pascal.dir/pascal.c.obj: C_COMPILER__pascal_unscanned_Debug E$:/codes/cpl-homework/6-recursion/pascal.c || cmake_object_order_depends_target_pascal
+  DEP_FILE = 6-recursion\CMakeFiles\pascal.dir\pascal.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 6-recursion\CMakeFiles\pascal.dir
+  OBJECT_FILE_DIR = 6-recursion\CMakeFiles\pascal.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pascal
+
+
+#############################################
+# Link the executable 6-recursion\pascal.exe
+
+build 6-recursion/pascal.exe: C_EXECUTABLE_LINKER__pascal_Debug 6-recursion/CMakeFiles/pascal.dir/pascal.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 6-recursion\CMakeFiles\pascal.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 6-recursion\pascal.exe
+  TARGET_IMPLIB = 6-recursion\libpascal.dll.a
+  TARGET_PDB = pascal.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target tiles
+
+
+#############################################
+# Order-only phony target for tiles
+
+build cmake_object_order_depends_target_tiles: phony || 6-recursion/CMakeFiles/tiles.dir
+
+build 6-recursion/CMakeFiles/tiles.dir/tiles.c.obj: C_COMPILER__tiles_unscanned_Debug E$:/codes/cpl-homework/6-recursion/tiles.c || cmake_object_order_depends_target_tiles
+  DEP_FILE = 6-recursion\CMakeFiles\tiles.dir\tiles.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 6-recursion\CMakeFiles\tiles.dir
+  OBJECT_FILE_DIR = 6-recursion\CMakeFiles\tiles.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target tiles
+
+
+#############################################
+# Link the executable 6-recursion\tiles.exe
+
+build 6-recursion/tiles.exe: C_EXECUTABLE_LINKER__tiles_Debug 6-recursion/CMakeFiles/tiles.dir/tiles.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 6-recursion\CMakeFiles\tiles.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 6-recursion\tiles.exe
+  TARGET_IMPLIB = 6-recursion\libtiles.dll.a
+  TARGET_PDB = tiles.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target poi
+
+
+#############################################
+# Order-only phony target for poi
+
+build cmake_object_order_depends_target_poi: phony || 6-recursion/CMakeFiles/poi.dir
+
+build 6-recursion/CMakeFiles/poi.dir/poi.c.obj: C_COMPILER__poi_unscanned_Debug E$:/codes/cpl-homework/6-recursion/poi.c || cmake_object_order_depends_target_poi
+  DEP_FILE = 6-recursion\CMakeFiles\poi.dir\poi.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 6-recursion\CMakeFiles\poi.dir
+  OBJECT_FILE_DIR = 6-recursion\CMakeFiles\poi.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target poi
+
+
+#############################################
+# Link the executable 6-recursion\poi.exe
+
+build 6-recursion/poi.exe: C_EXECUTABLE_LINKER__poi_Debug 6-recursion/CMakeFiles/poi.dir/poi.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 6-recursion\CMakeFiles\poi.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 6-recursion\poi.exe
+  TARGET_IMPLIB = 6-recursion\libpoi.dll.a
+  TARGET_PDB = poi.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target max
+
+
+#############################################
+# Order-only phony target for max
+
+build cmake_object_order_depends_target_max: phony || 6-recursion/CMakeFiles/max.dir
+
+build 6-recursion/CMakeFiles/max.dir/max.c.obj: C_COMPILER__max_unscanned_Debug E$:/codes/cpl-homework/6-recursion/max.c || cmake_object_order_depends_target_max
+  DEP_FILE = 6-recursion\CMakeFiles\max.dir\max.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 6-recursion\CMakeFiles\max.dir
+  OBJECT_FILE_DIR = 6-recursion\CMakeFiles\max.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target max
+
+
+#############################################
+# Link the executable 6-recursion\max.exe
+
+build 6-recursion/max.exe: C_EXECUTABLE_LINKER__max_Debug 6-recursion/CMakeFiles/max.dir/max.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 6-recursion\CMakeFiles\max.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 6-recursion\max.exe
+  TARGET_IMPLIB = 6-recursion\libmax.dll.a
+  TARGET_PDB = max.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target max-1
+
+
+#############################################
+# Order-only phony target for max-1
+
+build cmake_object_order_depends_target_max-1: phony || 6-recursion/CMakeFiles/max-1.dir
+
+build 6-recursion/CMakeFiles/max-1.dir/max-1.c.obj: C_COMPILER__max-1_unscanned_Debug E$:/codes/cpl-homework/6-recursion/max-1.c || cmake_object_order_depends_target_max-1
+  DEP_FILE = 6-recursion\CMakeFiles\max-1.dir\max-1.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 6-recursion\CMakeFiles\max-1.dir
+  OBJECT_FILE_DIR = 6-recursion\CMakeFiles\max-1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target max-1
+
+
+#############################################
+# Link the executable 6-recursion\max-1.exe
+
+build 6-recursion/max-1.exe: C_EXECUTABLE_LINKER__max-1_Debug 6-recursion/CMakeFiles/max-1.dir/max-1.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 6-recursion\CMakeFiles\max-1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 6-recursion\max-1.exe
+  TARGET_IMPLIB = 6-recursion\libmax-1.dll.a
+  TARGET_PDB = max-1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target integration
+
+
+#############################################
+# Order-only phony target for integration
+
+build cmake_object_order_depends_target_integration: phony || 6-recursion/CMakeFiles/integration.dir
+
+build 6-recursion/CMakeFiles/integration.dir/integration.c.obj: C_COMPILER__integration_unscanned_Debug E$:/codes/cpl-homework/6-recursion/integration.c || cmake_object_order_depends_target_integration
+  DEP_FILE = 6-recursion\CMakeFiles\integration.dir\integration.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 6-recursion\CMakeFiles\integration.dir
+  OBJECT_FILE_DIR = 6-recursion\CMakeFiles\integration.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target integration
+
+
+#############################################
+# Link the executable 6-recursion\integration.exe
+
+build 6-recursion/integration.exe: C_EXECUTABLE_LINKER__integration_Debug 6-recursion/CMakeFiles/integration.dir/integration.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 6-recursion\CMakeFiles\integration.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 6-recursion\integration.exe
+  TARGET_IMPLIB = 6-recursion\libintegration.dll.a
+  TARGET_PDB = integration.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target integration-1
+
+
+#############################################
+# Order-only phony target for integration-1
+
+build cmake_object_order_depends_target_integration-1: phony || 6-recursion/CMakeFiles/integration-1.dir
+
+build 6-recursion/CMakeFiles/integration-1.dir/integration-1.c.obj: C_COMPILER__integration-1_unscanned_Debug E$:/codes/cpl-homework/6-recursion/integration-1.c || cmake_object_order_depends_target_integration-1
+  DEP_FILE = 6-recursion\CMakeFiles\integration-1.dir\integration-1.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 6-recursion\CMakeFiles\integration-1.dir
+  OBJECT_FILE_DIR = 6-recursion\CMakeFiles\integration-1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target integration-1
+
+
+#############################################
+# Link the executable 6-recursion\integration-1.exe
+
+build 6-recursion/integration-1.exe: C_EXECUTABLE_LINKER__integration-1_Debug 6-recursion/CMakeFiles/integration-1.dir/integration-1.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 6-recursion\CMakeFiles\integration-1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 6-recursion\integration-1.exe
+  TARGET_IMPLIB = 6-recursion\libintegration-1.dll.a
+  TARGET_PDB = integration-1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target triangle
+
+
+#############################################
+# Order-only phony target for triangle
+
+build cmake_object_order_depends_target_triangle: phony || 6-recursion/CMakeFiles/triangle.dir
+
+build 6-recursion/CMakeFiles/triangle.dir/triangle.c.obj: C_COMPILER__triangle_unscanned_Debug E$:/codes/cpl-homework/6-recursion/triangle.c || cmake_object_order_depends_target_triangle
+  DEP_FILE = 6-recursion\CMakeFiles\triangle.dir\triangle.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 6-recursion\CMakeFiles\triangle.dir
+  OBJECT_FILE_DIR = 6-recursion\CMakeFiles\triangle.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target triangle
+
+
+#############################################
+# Link the executable 6-recursion\triangle.exe
+
+build 6-recursion/triangle.exe: C_EXECUTABLE_LINKER__triangle_Debug 6-recursion/CMakeFiles/triangle.dir/triangle.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 6-recursion\CMakeFiles\triangle.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 6-recursion\triangle.exe
+  TARGET_IMPLIB = 6-recursion\libtriangle.dll.a
+  TARGET_PDB = triangle.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target decomposition
+
+
+#############################################
+# Order-only phony target for decomposition
+
+build cmake_object_order_depends_target_decomposition: phony || 6-recursion/CMakeFiles/decomposition.dir
+
+build 6-recursion/CMakeFiles/decomposition.dir/decomposition.c.obj: C_COMPILER__decomposition_unscanned_Debug E$:/codes/cpl-homework/6-recursion/decomposition.c || cmake_object_order_depends_target_decomposition
+  DEP_FILE = 6-recursion\CMakeFiles\decomposition.dir\decomposition.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 6-recursion\CMakeFiles\decomposition.dir
+  OBJECT_FILE_DIR = 6-recursion\CMakeFiles\decomposition.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target decomposition
+
+
+#############################################
+# Link the executable 6-recursion\decomposition.exe
+
+build 6-recursion/decomposition.exe: C_EXECUTABLE_LINKER__decomposition_Debug 6-recursion/CMakeFiles/decomposition.dir/decomposition.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 6-recursion\CMakeFiles\decomposition.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 6-recursion\decomposition.exe
+  TARGET_IMPLIB = 6-recursion\libdecomposition.dll.a
+  TARGET_PDB = decomposition.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target dec
+
+
+#############################################
+# Order-only phony target for dec
+
+build cmake_object_order_depends_target_dec: phony || 6-recursion/CMakeFiles/dec.dir
+
+build 6-recursion/CMakeFiles/dec.dir/dec.c.obj: C_COMPILER__dec_unscanned_Debug E$:/codes/cpl-homework/6-recursion/dec.c || cmake_object_order_depends_target_dec
+  DEP_FILE = 6-recursion\CMakeFiles\dec.dir\dec.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 6-recursion\CMakeFiles\dec.dir
+  OBJECT_FILE_DIR = 6-recursion\CMakeFiles\dec.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target dec
+
+
+#############################################
+# Link the executable 6-recursion\dec.exe
+
+build 6-recursion/dec.exe: C_EXECUTABLE_LINKER__dec_Debug 6-recursion/CMakeFiles/dec.dir/dec.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 6-recursion\CMakeFiles\dec.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 6-recursion\dec.exe
+  TARGET_IMPLIB = 6-recursion\libdec.dll.a
+  TARGET_PDB = dec.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 6-recursion/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D E:\codes\cpl-homework\cmake-build-debug\6-recursion && "E:\software\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 6-recursion/edit_cache: phony 6-recursion/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 6-recursion/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D E:\codes\cpl-homework\cmake-build-debug\6-recursion && "E:\software\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SE:\codes\cpl-homework -BE:\codes\cpl-homework\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 6-recursion/rebuild_cache: phony 6-recursion/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# E:/codes/cpl-homework/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target wine
+
+
+#############################################
+# Order-only phony target for wine
+
+build cmake_object_order_depends_target_wine: phony || 7-data-types/CMakeFiles/wine.dir
+
+build 7-data-types/CMakeFiles/wine.dir/wine.c.obj: C_COMPILER__wine_unscanned_Debug E$:/codes/cpl-homework/7-data-types/wine.c || cmake_object_order_depends_target_wine
+  DEP_FILE = 7-data-types\CMakeFiles\wine.dir\wine.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 7-data-types\CMakeFiles\wine.dir
+  OBJECT_FILE_DIR = 7-data-types\CMakeFiles\wine.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target wine
+
+
+#############################################
+# Link the executable 7-data-types\wine.exe
+
+build 7-data-types/wine.exe: C_EXECUTABLE_LINKER__wine_Debug 7-data-types/CMakeFiles/wine.dir/wine.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 7-data-types\CMakeFiles\wine.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 7-data-types\wine.exe
+  TARGET_IMPLIB = 7-data-types\libwine.dll.a
+  TARGET_PDB = wine.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target wine-1
+
+
+#############################################
+# Order-only phony target for wine-1
+
+build cmake_object_order_depends_target_wine-1: phony || 7-data-types/CMakeFiles/wine-1.dir
+
+build 7-data-types/CMakeFiles/wine-1.dir/wine-1.c.obj: C_COMPILER__wine-1_unscanned_Debug E$:/codes/cpl-homework/7-data-types/wine-1.c || cmake_object_order_depends_target_wine-1
+  DEP_FILE = 7-data-types\CMakeFiles\wine-1.dir\wine-1.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 7-data-types\CMakeFiles\wine-1.dir
+  OBJECT_FILE_DIR = 7-data-types\CMakeFiles\wine-1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target wine-1
+
+
+#############################################
+# Link the executable 7-data-types\wine-1.exe
+
+build 7-data-types/wine-1.exe: C_EXECUTABLE_LINKER__wine-1_Debug 7-data-types/CMakeFiles/wine-1.dir/wine-1.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 7-data-types\CMakeFiles\wine-1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 7-data-types\wine-1.exe
+  TARGET_IMPLIB = 7-data-types\libwine-1.dll.a
+  TARGET_PDB = wine-1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target stack
+
+
+#############################################
+# Order-only phony target for stack
+
+build cmake_object_order_depends_target_stack: phony || 7-data-types/CMakeFiles/stack.dir
+
+build 7-data-types/CMakeFiles/stack.dir/stack.c.obj: C_COMPILER__stack_unscanned_Debug E$:/codes/cpl-homework/7-data-types/stack.c || cmake_object_order_depends_target_stack
+  DEP_FILE = 7-data-types\CMakeFiles\stack.dir\stack.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 7-data-types\CMakeFiles\stack.dir
+  OBJECT_FILE_DIR = 7-data-types\CMakeFiles\stack.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target stack
+
+
+#############################################
+# Link the executable 7-data-types\stack.exe
+
+build 7-data-types/stack.exe: C_EXECUTABLE_LINKER__stack_Debug 7-data-types/CMakeFiles/stack.dir/stack.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 7-data-types\CMakeFiles\stack.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 7-data-types\stack.exe
+  TARGET_IMPLIB = 7-data-types\libstack.dll.a
+  TARGET_PDB = stack.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target brackets
+
+
+#############################################
+# Order-only phony target for brackets
+
+build cmake_object_order_depends_target_brackets: phony || 7-data-types/CMakeFiles/brackets.dir
+
+build 7-data-types/CMakeFiles/brackets.dir/brackets.c.obj: C_COMPILER__brackets_unscanned_Debug E$:/codes/cpl-homework/7-data-types/brackets.c || cmake_object_order_depends_target_brackets
+  DEP_FILE = 7-data-types\CMakeFiles\brackets.dir\brackets.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 7-data-types\CMakeFiles\brackets.dir
+  OBJECT_FILE_DIR = 7-data-types\CMakeFiles\brackets.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target brackets
+
+
+#############################################
+# Link the executable 7-data-types\brackets.exe
+
+build 7-data-types/brackets.exe: C_EXECUTABLE_LINKER__brackets_Debug 7-data-types/CMakeFiles/brackets.dir/brackets.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 7-data-types\CMakeFiles\brackets.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 7-data-types\brackets.exe
+  TARGET_IMPLIB = 7-data-types\libbrackets.dll.a
+  TARGET_PDB = brackets.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target brackets-1
+
+
+#############################################
+# Order-only phony target for brackets-1
+
+build cmake_object_order_depends_target_brackets-1: phony || 7-data-types/CMakeFiles/brackets-1.dir
+
+build 7-data-types/CMakeFiles/brackets-1.dir/brackets-1.c.obj: C_COMPILER__brackets-1_unscanned_Debug E$:/codes/cpl-homework/7-data-types/brackets-1.c || cmake_object_order_depends_target_brackets-1
+  DEP_FILE = 7-data-types\CMakeFiles\brackets-1.dir\brackets-1.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 7-data-types\CMakeFiles\brackets-1.dir
+  OBJECT_FILE_DIR = 7-data-types\CMakeFiles\brackets-1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target brackets-1
+
+
+#############################################
+# Link the executable 7-data-types\brackets-1.exe
+
+build 7-data-types/brackets-1.exe: C_EXECUTABLE_LINKER__brackets-1_Debug 7-data-types/CMakeFiles/brackets-1.dir/brackets-1.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 7-data-types\CMakeFiles\brackets-1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 7-data-types\brackets-1.exe
+  TARGET_IMPLIB = 7-data-types\libbrackets-1.dll.a
+  TARGET_PDB = brackets-1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bracket-2
+
+
+#############################################
+# Order-only phony target for bracket-2
+
+build cmake_object_order_depends_target_bracket-2: phony || 7-data-types/CMakeFiles/bracket-2.dir
+
+build 7-data-types/CMakeFiles/bracket-2.dir/bracket-2.c.obj: C_COMPILER__bracket-2_unscanned_Debug E$:/codes/cpl-homework/7-data-types/bracket-2.c || cmake_object_order_depends_target_bracket-2
+  DEP_FILE = 7-data-types\CMakeFiles\bracket-2.dir\bracket-2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 7-data-types\CMakeFiles\bracket-2.dir
+  OBJECT_FILE_DIR = 7-data-types\CMakeFiles\bracket-2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bracket-2
+
+
+#############################################
+# Link the executable 7-data-types\bracket-2.exe
+
+build 7-data-types/bracket-2.exe: C_EXECUTABLE_LINKER__bracket-2_Debug 7-data-types/CMakeFiles/bracket-2.dir/bracket-2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 7-data-types\CMakeFiles\bracket-2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 7-data-types\bracket-2.exe
+  TARGET_IMPLIB = 7-data-types\libbracket-2.dll.a
+  TARGET_PDB = bracket-2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bracket-3
+
+
+#############################################
+# Order-only phony target for bracket-3
+
+build cmake_object_order_depends_target_bracket-3: phony || 7-data-types/CMakeFiles/bracket-3.dir
+
+build 7-data-types/CMakeFiles/bracket-3.dir/bracket-3.c.obj: C_COMPILER__bracket-3_unscanned_Debug E$:/codes/cpl-homework/7-data-types/bracket-3.c || cmake_object_order_depends_target_bracket-3
+  DEP_FILE = 7-data-types\CMakeFiles\bracket-3.dir\bracket-3.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 7-data-types\CMakeFiles\bracket-3.dir
+  OBJECT_FILE_DIR = 7-data-types\CMakeFiles\bracket-3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bracket-3
+
+
+#############################################
+# Link the executable 7-data-types\bracket-3.exe
+
+build 7-data-types/bracket-3.exe: C_EXECUTABLE_LINKER__bracket-3_Debug 7-data-types/CMakeFiles/bracket-3.dir/bracket-3.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 7-data-types\CMakeFiles\bracket-3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 7-data-types\bracket-3.exe
+  TARGET_IMPLIB = 7-data-types\libbracket-3.dll.a
+  TARGET_PDB = bracket-3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target buddy
+
+
+#############################################
+# Order-only phony target for buddy
+
+build cmake_object_order_depends_target_buddy: phony || 7-data-types/CMakeFiles/buddy.dir
+
+build 7-data-types/CMakeFiles/buddy.dir/buddy.c.obj: C_COMPILER__buddy_unscanned_Debug E$:/codes/cpl-homework/7-data-types/buddy.c || cmake_object_order_depends_target_buddy
+  DEP_FILE = 7-data-types\CMakeFiles\buddy.dir\buddy.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 7-data-types\CMakeFiles\buddy.dir
+  OBJECT_FILE_DIR = 7-data-types\CMakeFiles\buddy.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target buddy
+
+
+#############################################
+# Link the executable 7-data-types\buddy.exe
+
+build 7-data-types/buddy.exe: C_EXECUTABLE_LINKER__buddy_Debug 7-data-types/CMakeFiles/buddy.dir/buddy.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 7-data-types\CMakeFiles\buddy.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 7-data-types\buddy.exe
+  TARGET_IMPLIB = 7-data-types\libbuddy.dll.a
+  TARGET_PDB = buddy.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target buddy-1
+
+
+#############################################
+# Order-only phony target for buddy-1
+
+build cmake_object_order_depends_target_buddy-1: phony || 7-data-types/CMakeFiles/buddy-1.dir
+
+build 7-data-types/CMakeFiles/buddy-1.dir/buddy-1.c.obj: C_COMPILER__buddy-1_unscanned_Debug E$:/codes/cpl-homework/7-data-types/buddy-1.c || cmake_object_order_depends_target_buddy-1
+  DEP_FILE = 7-data-types\CMakeFiles\buddy-1.dir\buddy-1.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 7-data-types\CMakeFiles\buddy-1.dir
+  OBJECT_FILE_DIR = 7-data-types\CMakeFiles\buddy-1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target buddy-1
+
+
+#############################################
+# Link the executable 7-data-types\buddy-1.exe
+
+build 7-data-types/buddy-1.exe: C_EXECUTABLE_LINKER__buddy-1_Debug 7-data-types/CMakeFiles/buddy-1.dir/buddy-1.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 7-data-types\CMakeFiles\buddy-1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 7-data-types\buddy-1.exe
+  TARGET_IMPLIB = 7-data-types\libbuddy-1.dll.a
+  TARGET_PDB = buddy-1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target buddy-3
+
+
+#############################################
+# Order-only phony target for buddy-3
+
+build cmake_object_order_depends_target_buddy-3: phony || 7-data-types/CMakeFiles/buddy-3.dir
+
+build 7-data-types/CMakeFiles/buddy-3.dir/buddy-3.c.obj: C_COMPILER__buddy-3_unscanned_Debug E$:/codes/cpl-homework/7-data-types/buddy-3.c || cmake_object_order_depends_target_buddy-3
+  DEP_FILE = 7-data-types\CMakeFiles\buddy-3.dir\buddy-3.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 7-data-types\CMakeFiles\buddy-3.dir
+  OBJECT_FILE_DIR = 7-data-types\CMakeFiles\buddy-3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target buddy-3
+
+
+#############################################
+# Link the executable 7-data-types\buddy-3.exe
+
+build 7-data-types/buddy-3.exe: C_EXECUTABLE_LINKER__buddy-3_Debug 7-data-types/CMakeFiles/buddy-3.dir/buddy-3.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 7-data-types\CMakeFiles\buddy-3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 7-data-types\buddy-3.exe
+  TARGET_IMPLIB = 7-data-types\libbuddy-3.dll.a
+  TARGET_PDB = buddy-3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target whac-a-mole
+
+
+#############################################
+# Order-only phony target for whac-a-mole
+
+build cmake_object_order_depends_target_whac-a-mole: phony || 7-data-types/CMakeFiles/whac-a-mole.dir
+
+build 7-data-types/CMakeFiles/whac-a-mole.dir/whac-a-mole.c.obj: C_COMPILER__whac-a-mole_unscanned_Debug E$:/codes/cpl-homework/7-data-types/whac-a-mole.c || cmake_object_order_depends_target_whac-a-mole
+  DEP_FILE = 7-data-types\CMakeFiles\whac-a-mole.dir\whac-a-mole.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 7-data-types\CMakeFiles\whac-a-mole.dir
+  OBJECT_FILE_DIR = 7-data-types\CMakeFiles\whac-a-mole.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target whac-a-mole
+
+
+#############################################
+# Link the executable 7-data-types\whac-a-mole.exe
+
+build 7-data-types/whac-a-mole.exe: C_EXECUTABLE_LINKER__whac-a-mole_Debug 7-data-types/CMakeFiles/whac-a-mole.dir/whac-a-mole.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 7-data-types\CMakeFiles\whac-a-mole.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 7-data-types\whac-a-mole.exe
+  TARGET_IMPLIB = 7-data-types\libwhac-a-mole.dll.a
+  TARGET_PDB = whac-a-mole.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target whac-a-mole-1
+
+
+#############################################
+# Order-only phony target for whac-a-mole-1
+
+build cmake_object_order_depends_target_whac-a-mole-1: phony || 7-data-types/CMakeFiles/whac-a-mole-1.dir
+
+build 7-data-types/CMakeFiles/whac-a-mole-1.dir/whac-a-mole-1.c.obj: C_COMPILER__whac-a-mole-1_unscanned_Debug E$:/codes/cpl-homework/7-data-types/whac-a-mole-1.c || cmake_object_order_depends_target_whac-a-mole-1
+  DEP_FILE = 7-data-types\CMakeFiles\whac-a-mole-1.dir\whac-a-mole-1.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 7-data-types\CMakeFiles\whac-a-mole-1.dir
+  OBJECT_FILE_DIR = 7-data-types\CMakeFiles\whac-a-mole-1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target whac-a-mole-1
+
+
+#############################################
+# Link the executable 7-data-types\whac-a-mole-1.exe
+
+build 7-data-types/whac-a-mole-1.exe: C_EXECUTABLE_LINKER__whac-a-mole-1_Debug 7-data-types/CMakeFiles/whac-a-mole-1.dir/whac-a-mole-1.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 7-data-types\CMakeFiles\whac-a-mole-1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 7-data-types\whac-a-mole-1.exe
+  TARGET_IMPLIB = 7-data-types\libwhac-a-mole-1.dll.a
+  TARGET_PDB = whac-a-mole-1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target whac-a-mole-2
+
+
+#############################################
+# Order-only phony target for whac-a-mole-2
+
+build cmake_object_order_depends_target_whac-a-mole-2: phony || 7-data-types/CMakeFiles/whac-a-mole-2.dir
+
+build 7-data-types/CMakeFiles/whac-a-mole-2.dir/whac-a-mole-2.c.obj: C_COMPILER__whac-a-mole-2_unscanned_Debug E$:/codes/cpl-homework/7-data-types/whac-a-mole-2.c || cmake_object_order_depends_target_whac-a-mole-2
+  DEP_FILE = 7-data-types\CMakeFiles\whac-a-mole-2.dir\whac-a-mole-2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 7-data-types\CMakeFiles\whac-a-mole-2.dir
+  OBJECT_FILE_DIR = 7-data-types\CMakeFiles\whac-a-mole-2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target whac-a-mole-2
+
+
+#############################################
+# Link the executable 7-data-types\whac-a-mole-2.exe
+
+build 7-data-types/whac-a-mole-2.exe: C_EXECUTABLE_LINKER__whac-a-mole-2_Debug 7-data-types/CMakeFiles/whac-a-mole-2.dir/whac-a-mole-2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 7-data-types\CMakeFiles\whac-a-mole-2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 7-data-types\whac-a-mole-2.exe
+  TARGET_IMPLIB = 7-data-types\libwhac-a-mole-2.dll.a
+  TARGET_PDB = whac-a-mole-2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target whac-a-mole-3
+
+
+#############################################
+# Order-only phony target for whac-a-mole-3
+
+build cmake_object_order_depends_target_whac-a-mole-3: phony || 7-data-types/CMakeFiles/whac-a-mole-3.dir
+
+build 7-data-types/CMakeFiles/whac-a-mole-3.dir/whac-a-mole-3.c.obj: C_COMPILER__whac-a-mole-3_unscanned_Debug E$:/codes/cpl-homework/7-data-types/whac-a-mole-3.c || cmake_object_order_depends_target_whac-a-mole-3
+  DEP_FILE = 7-data-types\CMakeFiles\whac-a-mole-3.dir\whac-a-mole-3.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 7-data-types\CMakeFiles\whac-a-mole-3.dir
+  OBJECT_FILE_DIR = 7-data-types\CMakeFiles\whac-a-mole-3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target whac-a-mole-3
+
+
+#############################################
+# Link the executable 7-data-types\whac-a-mole-3.exe
+
+build 7-data-types/whac-a-mole-3.exe: C_EXECUTABLE_LINKER__whac-a-mole-3_Debug 7-data-types/CMakeFiles/whac-a-mole-3.dir/whac-a-mole-3.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 7-data-types\CMakeFiles\whac-a-mole-3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 7-data-types\whac-a-mole-3.exe
+  TARGET_IMPLIB = 7-data-types\libwhac-a-mole-3.dll.a
+  TARGET_PDB = whac-a-mole-3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target rotate
+
+
+#############################################
+# Order-only phony target for rotate
+
+build cmake_object_order_depends_target_rotate: phony || 7-data-types/CMakeFiles/rotate.dir
+
+build 7-data-types/CMakeFiles/rotate.dir/rotate.c.obj: C_COMPILER__rotate_unscanned_Debug E$:/codes/cpl-homework/7-data-types/rotate.c || cmake_object_order_depends_target_rotate
+  DEP_FILE = 7-data-types\CMakeFiles\rotate.dir\rotate.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 7-data-types\CMakeFiles\rotate.dir
+  OBJECT_FILE_DIR = 7-data-types\CMakeFiles\rotate.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target rotate
+
+
+#############################################
+# Link the executable 7-data-types\rotate.exe
+
+build 7-data-types/rotate.exe: C_EXECUTABLE_LINKER__rotate_Debug 7-data-types/CMakeFiles/rotate.dir/rotate.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 7-data-types\CMakeFiles\rotate.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 7-data-types\rotate.exe
+  TARGET_IMPLIB = 7-data-types\librotate.dll.a
+  TARGET_PDB = rotate.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target pour
+
+
+#############################################
+# Order-only phony target for pour
+
+build cmake_object_order_depends_target_pour: phony || 7-data-types/CMakeFiles/pour.dir
+
+build 7-data-types/CMakeFiles/pour.dir/pour.c.obj: C_COMPILER__pour_unscanned_Debug E$:/codes/cpl-homework/7-data-types/pour.c || cmake_object_order_depends_target_pour
+  DEP_FILE = 7-data-types\CMakeFiles\pour.dir\pour.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 7-data-types\CMakeFiles\pour.dir
+  OBJECT_FILE_DIR = 7-data-types\CMakeFiles\pour.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pour
+
+
+#############################################
+# Link the executable 7-data-types\pour.exe
+
+build 7-data-types/pour.exe: C_EXECUTABLE_LINKER__pour_Debug 7-data-types/CMakeFiles/pour.dir/pour.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 7-data-types\CMakeFiles\pour.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 7-data-types\pour.exe
+  TARGET_IMPLIB = 7-data-types\libpour.dll.a
+  TARGET_PDB = pour.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 7-data-types/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D E:\codes\cpl-homework\cmake-build-debug\7-data-types && "E:\software\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 7-data-types/edit_cache: phony 7-data-types/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 7-data-types/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D E:\codes\cpl-homework\cmake-build-debug\7-data-types && "E:\software\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SE:\codes\cpl-homework -BE:\codes\cpl-homework\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 7-data-types/rebuild_cache: phony 7-data-types/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build ASCII: phony 1-types-io/ASCII.exe
@@ -2061,9 +2975,37 @@ build behaviors: phony 5-functions/behaviors.exe
 
 build behaviors.exe: phony 5-functions/behaviors.exe
 
+build bracket-2: phony 7-data-types/bracket-2.exe
+
+build bracket-2.exe: phony 7-data-types/bracket-2.exe
+
+build bracket-3: phony 7-data-types/bracket-3.exe
+
+build bracket-3.exe: phony 7-data-types/bracket-3.exe
+
+build brackets: phony 7-data-types/brackets.exe
+
+build brackets-1: phony 7-data-types/brackets-1.exe
+
+build brackets-1.exe: phony 7-data-types/brackets-1.exe
+
+build brackets.exe: phony 7-data-types/brackets.exe
+
 build bubble-sort: phony 3-for-a-while/bubble-sort.exe
 
 build bubble-sort.exe: phony 3-for-a-while/bubble-sort.exe
+
+build buddy: phony 7-data-types/buddy.exe
+
+build buddy-1: phony 7-data-types/buddy-1.exe
+
+build buddy-1.exe: phony 7-data-types/buddy-1.exe
+
+build buddy-3: phony 7-data-types/buddy-3.exe
+
+build buddy-3.exe: phony 7-data-types/buddy-3.exe
+
+build buddy.exe: phony 7-data-types/buddy.exe
 
 build change: phony 1-types-io/change.exe
 
@@ -2073,9 +3015,17 @@ build collatz: phony 2-if-for-array/collatz.exe
 
 build collatz.exe: phony 2-if-for-array/collatz.exe
 
+build dec: phony 6-recursion/dec.exe
+
+build dec.exe: phony 6-recursion/dec.exe
+
 build decimal: phony 3-for-a-while/decimal.exe
 
 build decimal.exe: phony 3-for-a-while/decimal.exe
+
+build decomposition: phony 6-recursion/decomposition.exe
+
+build decomposition.exe: phony 6-recursion/decomposition.exe
 
 build equation: phony 1-types-io/equation.exe
 
@@ -2096,6 +3046,14 @@ build formation.exe: phony 4-loops/formation.exe
 build gravity: phony 1-types-io/gravity.exe
 
 build gravity.exe: phony 1-types-io/gravity.exe
+
+build integration: phony 6-recursion/integration.exe
+
+build integration-1: phony 6-recursion/integration-1.exe
+
+build integration-1.exe: phony 6-recursion/integration-1.exe
+
+build integration.exe: phony 6-recursion/integration.exe
 
 build josephus: phony 3-for-a-while/josephus.exe
 
@@ -2120,6 +3078,14 @@ build magic-square.exe: phony 5-functions/magic-square.exe
 build matrix-mult: phony 4-loops/matrix-mult.exe
 
 build matrix-mult.exe: phony 4-loops/matrix-mult.exe
+
+build max: phony 6-recursion/max.exe
+
+build max-1: phony 6-recursion/max-1.exe
+
+build max-1.exe: phony 6-recursion/max-1.exe
+
+build max.exe: phony 6-recursion/max.exe
 
 build mine: phony 4-loops/mine.exe
 
@@ -2165,9 +3131,21 @@ build palindrome-2: phony 3-for-a-while/palindrome-2.exe
 
 build palindrome-2.exe: phony 3-for-a-while/palindrome-2.exe
 
+build pascal: phony 6-recursion/pascal.exe
+
+build pascal.exe: phony 6-recursion/pascal.exe
+
 build pi: phony 1-types-io/pi.exe
 
 build pi.exe: phony 1-types-io/pi.exe
+
+build poi: phony 6-recursion/poi.exe
+
+build poi.exe: phony 6-recursion/poi.exe
+
+build pour: phony 7-data-types/pour.exe
+
+build pour.exe: phony 7-data-types/pour.exe
 
 build quick-sort: phony 3-for-a-while/quick-sort.exe
 
@@ -2184,6 +3162,10 @@ build radix-1: phony 5-functions/radix-1.exe
 build radix-1.exe: phony 5-functions/radix-1.exe
 
 build radix.exe: phony 5-functions/radix.exe
+
+build rotate: phony 7-data-types/rotate.exe
+
+build rotate.exe: phony 7-data-types/rotate.exe
 
 build series: phony 2-if-for-array/series.exe
 
@@ -2204,6 +3186,10 @@ build single.exe: phony 2-if-for-array/single.exe
 build sort: phony 3-for-a-while/sort.exe
 
 build sort.exe: phony 3-for-a-while/sort.exe
+
+build stack: phony 7-data-types/stack.exe
+
+build stack.exe: phony 7-data-types/stack.exe
 
 build standup: phony 2-if-for-array/standup.exe
 
@@ -2233,6 +3219,10 @@ build sum: phony 5-functions/sum.exe
 
 build sum.exe: phony 5-functions/sum.exe
 
+build tiles: phony 6-recursion/tiles.exe
+
+build tiles.exe: phony 6-recursion/tiles.exe
+
 build time: phony 1-types-io/time.exe
 
 build time.exe: phony 1-types-io/time.exe
@@ -2240,6 +3230,34 @@ build time.exe: phony 1-types-io/time.exe
 build trace: phony 4-loops/trace.exe
 
 build trace.exe: phony 4-loops/trace.exe
+
+build triangle: phony 6-recursion/triangle.exe
+
+build triangle.exe: phony 6-recursion/triangle.exe
+
+build whac-a-mole: phony 7-data-types/whac-a-mole.exe
+
+build whac-a-mole-1: phony 7-data-types/whac-a-mole-1.exe
+
+build whac-a-mole-1.exe: phony 7-data-types/whac-a-mole-1.exe
+
+build whac-a-mole-2: phony 7-data-types/whac-a-mole-2.exe
+
+build whac-a-mole-2.exe: phony 7-data-types/whac-a-mole-2.exe
+
+build whac-a-mole-3: phony 7-data-types/whac-a-mole-3.exe
+
+build whac-a-mole-3.exe: phony 7-data-types/whac-a-mole-3.exe
+
+build whac-a-mole.exe: phony 7-data-types/whac-a-mole.exe
+
+build wine: phony 7-data-types/wine.exe
+
+build wine-1: phony 7-data-types/wine-1.exe
+
+build wine-1.exe: phony 7-data-types/wine-1.exe
+
+build wine.exe: phony 7-data-types/wine.exe
 
 # =============================================================================
 # Folder targets.
@@ -2249,7 +3267,7 @@ build trace.exe: phony 4-loops/trace.exe
 #############################################
 # Folder: E:/codes/cpl-homework/cmake-build-debug
 
-build all: phony 1-types-io/all 2-if-for-array/all 3-for-a-while/all 4-loops/all 5-functions/all
+build all: phony 1-types-io/all 2-if-for-array/all 3-for-a-while/all 4-loops/all 5-functions/all 6-recursion/all 7-data-types/all
 
 # =============================================================================
 
@@ -2287,20 +3305,34 @@ build 4-loops/all: phony 4-loops/matrix-mult.exe 4-loops/formation.exe 4-loops/s
 build 5-functions/all: phony 5-functions/behaviors.exe 5-functions/sum.exe 5-functions/magic-square.exe 5-functions/absolute-prime.exe 5-functions/radix-1.exe 5-functions/radix.exe 5-functions/next-permutation-wrong.exe 5-functions/next-permutation.exe 5-functions/pair-1.exe 5-functions/pair-2.exe
 
 # =============================================================================
+
+#############################################
+# Folder: E:/codes/cpl-homework/cmake-build-debug/6-recursion
+
+build 6-recursion/all: phony 6-recursion/pascal.exe 6-recursion/tiles.exe 6-recursion/poi.exe 6-recursion/max.exe 6-recursion/max-1.exe 6-recursion/integration.exe 6-recursion/integration-1.exe 6-recursion/triangle.exe 6-recursion/decomposition.exe 6-recursion/dec.exe
+
+# =============================================================================
+
+#############################################
+# Folder: E:/codes/cpl-homework/cmake-build-debug/7-data-types
+
+build 7-data-types/all: phony 7-data-types/wine.exe 7-data-types/wine-1.exe 7-data-types/stack.exe 7-data-types/brackets.exe 7-data-types/brackets-1.exe 7-data-types/bracket-2.exe 7-data-types/bracket-3.exe 7-data-types/buddy.exe 7-data-types/buddy-1.exe 7-data-types/buddy-3.exe 7-data-types/whac-a-mole.exe 7-data-types/whac-a-mole-1.exe 7-data-types/whac-a-mole-2.exe 7-data-types/whac-a-mole-3.exe 7-data-types/rotate.exe 7-data-types/pour.exe
+
+# =============================================================================
 # Built-in targets
 
 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake E$:/codes/cpl-homework/1-types-io/CMakeLists.txt E$:/codes/cpl-homework/2-if-for-array/CMakeLists.txt E$:/codes/cpl-homework/3-for-a-while/CMakeLists.txt E$:/codes/cpl-homework/4-loops/CMakeLists.txt E$:/codes/cpl-homework/5-functions/CMakeLists.txt E$:/codes/cpl-homework/CMakeLists.txt E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake E$:/codes/cpl-homework/1-types-io/CMakeLists.txt E$:/codes/cpl-homework/2-if-for-array/CMakeLists.txt E$:/codes/cpl-homework/3-for-a-while/CMakeLists.txt E$:/codes/cpl-homework/4-loops/CMakeLists.txt E$:/codes/cpl-homework/5-functions/CMakeLists.txt E$:/codes/cpl-homework/6-recursion/CMakeLists.txt E$:/codes/cpl-homework/7-data-types/CMakeLists.txt E$:/codes/cpl-homework/CMakeLists.txt E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake E$:/codes/cpl-homework/1-types-io/CMakeLists.txt E$:/codes/cpl-homework/2-if-for-array/CMakeLists.txt E$:/codes/cpl-homework/3-for-a-while/CMakeLists.txt E$:/codes/cpl-homework/4-loops/CMakeLists.txt E$:/codes/cpl-homework/5-functions/CMakeLists.txt E$:/codes/cpl-homework/CMakeLists.txt E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake: phony
+build CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake E$:/codes/cpl-homework/1-types-io/CMakeLists.txt E$:/codes/cpl-homework/2-if-for-array/CMakeLists.txt E$:/codes/cpl-homework/3-for-a-while/CMakeLists.txt E$:/codes/cpl-homework/4-loops/CMakeLists.txt E$:/codes/cpl-homework/5-functions/CMakeLists.txt E$:/codes/cpl-homework/6-recursion/CMakeLists.txt E$:/codes/cpl-homework/7-data-types/CMakeLists.txt E$:/codes/cpl-homework/CMakeLists.txt E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################
